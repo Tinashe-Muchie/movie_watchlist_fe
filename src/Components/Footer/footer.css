@@ -1,0 +1,9 @@
+footer {
+    font-family: 'STIX+Two+Text', Garamond, serif;
+    background-image: linear-gradient(to bottom right, #7395AE, #5CDB95);
+    min-height: 4em;
+    border-top: .1em solid #0C0032;
+    color: #0C0032;
+    font-weight: bold;
+    padding: 2em;
+}

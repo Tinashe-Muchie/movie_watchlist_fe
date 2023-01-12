@@ -1,0 +1,30 @@
+.pagination_wrapper {
+    font-family: 'STIX+Two+Text', Garamond, serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.page_to_show {
+    font-family: 'STIX+Two+Text', Garamond, serif;
+    background-color: #0C0032;
+    color: #C1C2C3;
+    max-width: 2em;
+    border: hidden;
+    margin: .1em;
+}
+
+.page_to_show:disabled {
+    opacity: .5;
+    filter:saturate(50%);
+}
+
+.active_page_to_show {
+    background-image: linear-gradient(to bottom right, #7395AE, #5CDB95);
+}
+
+@media (min-width: 768px) {
+    .pagination_wrapper {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,10 @@
+
+.toprated_container > h2 {
+    margin: 0.5em .5em;
+}
+
+@media (min-width: 768px) {
+    .toprated_container {
+        padding: 0 5em;
+    }
+}
